@@ -1,0 +1,115 @@
+/* styles.css */
+body{
+    background-color: #2196F3;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #443434;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.main-content {
+    margin-top: 20px; /* Adjust spacing to avoid overlap with navbar */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions a {
+    margin-right: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.actions a.edit {
+    background-color: #2196F3;
+}
+
+.actions a.delete {
+    background-color: #f44336;
+}
+
+.actions a:hover {
+    opacity: 0.8;
+}
